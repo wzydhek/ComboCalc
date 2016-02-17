@@ -1,0 +1,8 @@
+C:\Users\Walt\Documents\Visual Studio 2008\Projects\combocalc\combocalc\bin\Debug\combocalc.exe
+C:\Users\Walt\Documents\Visual Studio 2008\Projects\combocalc\combocalc\bin\Debug\combocalc.pdb
+C:\Users\Walt\Documents\Visual Studio 2008\Projects\combocalc\combocalc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Walt\Documents\Visual Studio 2008\Projects\combocalc\combocalc\obj\Debug\combocalc.Form1.resources
+C:\Users\Walt\Documents\Visual Studio 2008\Projects\combocalc\combocalc\obj\Debug\combocalc.Properties.Resources.resources
+C:\Users\Walt\Documents\Visual Studio 2008\Projects\combocalc\combocalc\obj\Debug\combocalc.csproj.GenerateResource.Cache
+C:\Users\Walt\Documents\Visual Studio 2008\Projects\combocalc\combocalc\obj\Debug\combocalc.exe
+C:\Users\Walt\Documents\Visual Studio 2008\Projects\combocalc\combocalc\obj\Debug\combocalc.pdb
