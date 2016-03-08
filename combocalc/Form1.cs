@@ -75,12 +75,72 @@ namespace combocalc
                 "Powdered Sunstone",
                 "Powdered Turquoise",
                 "Salts Of Aluminum",
+                "Salts Of Antimony",
                 "Salts Of Copper",
                 "Salts Of Gold",
+                "Salts Of Iron",
                 "Salts Of Lead",
+                "Salts Of Lithium",
+                "Salts Of Magnesium",
+                "Salts Of Platinum",
                 "Salts Of Strontium",
+                "Salts Of Silver",
                 "Salts Of Tin",
-                "Salts Of Tungsten"
+                "Salts Of Titanium",
+                "Salts Of Tungsten",
+                "Salts Of Zinc",
+                "Powdered Aqua Pearl",
+                "Powdered Black Pearl",
+                "Powdered Coral Pearl",
+                "Powdered Pink Pearl",
+                "Powdered Smoke Pearl",
+                "Powdered White Pearl",
+                "Oyster Shell Marble Dust",
+                "Bee Balm",
+                "Black Pepper Plant",
+                "Bluebottle Clover",
+                "Bucklerleaf",
+                "Cardamom",
+                "Chatinabrae",
+                "Chives",
+                "Cinnamon",
+                "Common Basil",
+                "Common Rosemary",
+                "Common Sage",
+                "Covage",
+                "Crampbark",
+                "Crimson Lettuce",
+                "Crumpled Leaf Basil",
+                "Daggerleaf",
+                "Dark Ochoa",
+                "Digweed",
+                "Discorea",
+                "Dwarf Hogweed",
+                "Finlow",
+                "Fire Allspice",
+                "Fleabane",
+                "Fool's Agar",
+                "Ginger Root",
+                "Glechoma",
+                "Harebell",
+                "Hazlewort",
+                "Houseleek",
+                "Hyssop",
+                "Indigo Damia",
+                "Lemondrop",
+                "Lythrum",
+                "Mariae",
+                "Meadowsweet",
+                "Mindanao",
+                "Morpha",
+                "Motherwort",
+                "Mountain Mint",
+                "Myristica",
+                "Pale Dhamasa",
+                "Pale Russet",
+                "Panoe",
+                "Pippali",
+                "Pulmonaria Opal"
             };
         int[,] vals = new int[,] { 
                 {0,23,3,0,0,0,-2,-1,-3,0,0,0},    //Anaxi
@@ -146,14 +206,73 @@ namespace combocalc
                 {60,9,-1,1,-2,0,0,3,2,-3,3,0},    //Powdered Sunstone
                 {61,68,0,0,-1,-2,0,2,3,-3,3,0},    //Powdered Turquoise
                 {69,89,0,3,-1,0,0,-2,1,-3,12,0},    //Salts Of Aluminum
+                {70,7,-1,0,0,2,-2,0,0,0,6,0},    //Salts Of Antimony
                 {71,71,-2,0,2,0,-1,0,3,1,6,0},    //Salts Of Copper
                 {72,85,-1,-3,0,-2,0,1,0,2,12,0},    //Salts Of Gold
+                {73,38,0,0,-2,0,3,0,-3,-1,6,0},    //Salts Of Iron
                 {74,68,-2,-3,1,0,3,-1,0,2,6,0},    //Salts Of Lead
+                {75,25,0,0,-3,-2,0,-1,0,2,6,0},    //Salts Of Lithium
+                {76,19,-1,0,-3,2,0,0,0,-2,6,0},    //Salts Of Magnesium
+                {77,25,3,0,0,-1,-3,0,0,1,6,0},    //Salts Of Platinum
+                {78,20,0,3,-2,0,0,-3,-1,1,6,0},    //Salts Of Silver
                 {79,68,1,0,3,-3,-2,-1,0,0,6,0},    //Salts Of Strontium
                 {80,81,-1,0,0,-3,0,1,0,-2,6,0},    //Salts Of Tin
-                {82,89,-3,-1,0,1,-2,0,0,0,12,0}    //Salts Of Tungsten
-
-            };
+                {81,22,-2,1,0,0,2,-1,0,-3,6,0},    //Salts Of Titanium
+                {82,89,-3,-1,0,1,-2,0,0,0,12,0},    //Salts Of Tungsten
+                {83,23,0,-3,-2,0,-1,0,1,2,6,0},    //Salts Of Zinc
+                {62,81,2,-1,-2,0,1,0,0,3,17,0},    //Powdered Aqua Pearl
+                {64,16,1,-2,3,0,-1,-3,0,0,17,0},    //Powdered Black Pearl
+                {65,77,-1,1,0,0,3,2,-2,-3,17,0},    //Powdered Coral Pearl
+                {66,2,0,0,-1,-3,-2,2,3,0,17,0},    //Powdered Pink Pearl
+                {67,3,-3,0,1,3,-2,-1,0,2,17,0},    //Powdered Smoke Pearl
+                {68,69,1,-1,-2,-3,2,0,0,0,17,0},    //Powdered White Pearl
+                {103,85,-1,2,-2,3,0,-3,0,1,14,0},    //Oyster Shell Marble Dust 
+                {98,87,1,-1,0,0,0,3,2,-3,24,0},    //Bee Balm
+                {104,55,-3,0,2,0,3,-2,-1,1,10,0},    //Black Pepper Plant
+                {115,71,1,-2,0,0,-1,0,0,2,9,0},    //Bluebottle Clover
+                {119,70,-1,0,-2,3,0,0,0,-3,9,0},    //Bucklerleaf
+                {127,48,2,1,0,0,0,-1,0,-2,10,0},    //Cardamom
+                {130,43,1,2,-1,0,0,0,-2,3,11,0},    //Chatinabrae
+                {131,73,-2,0,0,-3,-1,0,1,2,9,0},    //Chives
+                {134,78,2,0,-2,1,0,3,-1,-3,10,0},    //Cinnamon
+                {138,28,0,-3,-2,0,1,3,0,-1,8,0},    //Common Basil
+                {139,58,3,-2,-1,1,0,0,-3,0,8,0},    //Common Rosemary
+                {140,32,3,-3,-1,-2,0,0,0,0,9,0},    //Common Sage
+                {142,74,0,-1,2,0,0,-2,0,0,11,0},    //Covage
+                {143,84,3,-3,0,-2,0,-1,0,0,20,0},    //Crampbark
+                {148,0,0,3,0,2,-3,-1,0,0,10,0},    //Crimson Lettuce
+                {152,49,0,0,0,-3,0,-1,3,-2,12,0},    //Crumpled Leaf Basil
+                {155,75,-3,0,-1,0,2,0,0,-2,10,0},    //Daggerleaf
+                {159,21,1,0,0,-1,-3,0,-2,3,9,0},    //Dark Ochoa
+                {165,63,1,0,0,-1,3,-2,-3,0,12,0},    //Digweed
+                {166,52,0,2,0,1,-1,3,-3,0,8,0},    //Discorea
+                {169,19,0,-1,0,-2,0,-3,1,0,10,0},    //Dwarf Hogweed
+                {174,67,0,0,0,3,-1,1,-2,-3,12,0},    //Finlow
+                {175,20,0,-2,-3,-1,0,0,3,2,12,0},    //Fire Allspice
+                {180,10,-2,2,0,1,0,0,-1,-3,10,0},    //Fleabane
+                {181,40,-1,0,0,0,3,-2,0,-3,9,0},    //Fool's Agar
+                {185,65,0,-2,3,1,-3,0,-1,0,11,0},    //Ginger Root
+                {188,56,0,-3,0,-2,-1,3,1,2,9,0},    //Glechoma
+                {198,20,0,0,2,0,-1,0,-2,0,11,0},    //Harebell
+                {200,32,3,0,0,0,0,0,-1,2,10,0},    //Hazlewort
+                {206,66,0,0,-2,1,-3,0,-1,2,10,0},    //Houseleek
+                {207,25,3,0,-1,2,-3,0,0,-2,10,0},    //Hyssop
+                {211,51,3,1,0,-1,2,0,-2,0,9,0},    //Indigo Damia
+                {227,59,0,-2,0,2,1,0,-1,0,9,0},    //Lemondrop
+                {231,3,3,-1,0,-3,0,2,0,-2,10,0},    //Lythrum
+                {236,89,0,0,3,0,-1,1,0,2,20,0},    //Mariae
+                {237,48,-3,-2,1,0,2,0,-1,3,10,0},    //Meadowsweet
+                {239,22,2,0,-1,1,-3,0,0,0,10,0},    //Mindanao
+                {244,66,0,1,-1,0,-2,0,-3,0,10,0},    //Morpha
+                {245,9,-3,-1,0,1,0,0,0,0,10,0},    //Motherwort
+                {246,38,0,-3,0,0,3,-2,-1,0,9,0},    //Mountain Mint
+                {247,70,0,-2,-1,1,0,0,0,-3,9,0},    //Myristica
+                {256,29,-3,0,0,0,1,0,-1,-2,9,0},    //Pale Dhamasa
+                {258,68,1,0,-1,-2,-3,0,0,0,11,0},    //Pale Russet
+                {260,23,-1,1,0,0,2,-2,0,0,11,0},    //Panoe
+                {264,1,0,0,-1,1,0,2,-2,0,11,0},    //Pippali
+                {268,45,0,-2,-3,-1,0,1,2,0,11,0}    //Pulmonaria Opal
+           };
 
         public Form1()
         {
