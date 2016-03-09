@@ -140,7 +140,29 @@ namespace combocalc
                 "Pale Russet",
                 "Panoe",
                 "Pippali",
-                "Pulmonaria Opal"
+                "Pulmonaria Opal",
+                "Satsatchi",
+                "Shrub Sage",
+                "Shrubby Basil",
+                "Silvertongue Damia",
+                "Soapwort",
+                "Sorrel",
+                "Spinach",
+                "Steel Bladegrass",
+                "Stickler Hedge",
+                "Strawberry Tea",
+                "Sweetflower",
+                "Sweetgrass",
+                "Thyme",
+                "Tiny Clover",
+                "True Tarragon",
+                "Tsangto",
+                "Verdant Squill",
+                "Weeping Patala",
+                "Wild Lettuce",
+                "Wild Onion",
+                "Xanosi",
+                "Yigory"
             };
         int[,] vals = new int[,] { 
                 {0,23,3,0,0,0,-2,-1,-3,0,0,0},    //Anaxi
@@ -271,7 +293,29 @@ namespace combocalc
                 {258,68,1,0,-1,-2,-3,0,0,0,11,0},    //Pale Russet
                 {260,23,-1,1,0,0,2,-2,0,0,11,0},    //Panoe
                 {264,1,0,0,-1,1,0,2,-2,0,11,0},    //Pippali
-                {268,45,0,-2,-3,-1,0,1,2,0,11,0}    //Pulmonaria Opal
+                {268,45,0,-2,-3,-1,0,1,2,0,11,0},    //Pulmonaria Opal
+                {281,19,0,-2,0,0,-1,1,3,0,10,0},    //Satsatchi
+                {284,9,1,3,0,-2,2,0,-3,-1,10,0},    //Shrub Sage
+                {285,14,0,-2,-1,1,2,0,0,3,11,0},    //Shrubby Basil
+                {289,69,3,0,0,-3,0,-1,0,0,10,0},    //Silvertongue Damia
+                {292,69,1,0,-2,-1,0,0,-3,0,11,0},    //Soapwort
+                {293,68,-2,0,0,1,0,0,-3,-1,10,0},    //Sorrel
+                {294,70,0,-2,1,2,0,-1,0,0,11,0},    //Spinach
+                {297,75,3,0,-3,0,-1,-2,2,1,11,0},    //Steel Bladegrass
+                {298,69,-2,0,3,0,-1,1,0,2,10,0},    //Stickler Hedge
+                {299,65,3,0,0,-1,1,-2,0,-3,10,0},    //Strawberry Tea
+                {303,15,0,-2,0,3,0,0,-1,1,11,0},    //Sweetflower
+                {304,87,2,0,0,0,-1,1,0,-3,20,0},    //Sweetgrass
+                {310,49,0,-2,0,3,-1,-3,0,0,8,0},    //Thyme
+                {311,89,0,0,1,0,-1,0,-2,-3,18,0},    //Tiny Clover
+                {314,65,0,0,-1,1,-3,3,0,0,11,0},    //True Tarragon
+                {315,66,1,-2,0,3,-1,-3,0,2,10,0},    //Tsangto
+                {321,40,0,2,0,0,-3,-2,1,-1,8,0},    //Verdant Squill
+                {324,50,1,-2,-1,0,0,3,0,0,12,0},    //Weeping Patala
+                {328,48,0,-3,1,-2,0,2,3,-1,8,0},    //Wild Lettuce
+                {329,40,0,-1,-2,3,1,0,0,-3,11,0},    //Wild Onion
+                {333,30,-2,0,0,0,0,3,-1,-3,10,0},    //Xanosi
+                {337,70,-1,-2,1,2,0,0,-3,0,11,0}    //Yigory
            };
 
         public Form1()
